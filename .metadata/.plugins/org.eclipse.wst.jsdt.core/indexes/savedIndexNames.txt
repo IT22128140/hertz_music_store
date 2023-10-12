@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+C:\projects\hertz_music_store\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+3270952356.index
+1495648465.index
+4265067764.index
+2026309415.index
+2887690303.index
+2150879635.index
