@@ -1,0 +1,352 @@
+@charset "ISO-8859-1";
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+.header {
+    background: rgb(164, 211, 255);
+    height: 180px;
+    width: 100%;
+    display: block;
+    z-index: 100;
+    position: relative;
+}
+.logo{
+    margin-top: 5px;
+    margin-bottom: 0px;
+    margin-left: 5px;
+    margin-right: 10px;
+    float: left;
+    width: 150px;
+    height: 150px;
+    padding: 5px;
+    transition: 0.3s;
+}
+.topic {
+	font-size: 120px;
+	font-family: 'Poppins', sans-serif;
+	color:rgb(0, 116, 217);
+	margin-right: 0;
+}
+.button1 #button{
+	font-size: 30px;
+	font-weight: bold;	
+    background-color: rgb(0, 116, 217);
+    margin: 16px 8px 4px 4px;
+    width: 240px;
+    height: 60px;
+    padding: 1px 2px;
+    cursor: pointer;
+    display: block;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.button1 #button:not{
+    border-bottom: none;
+}
+.button1 #button:hover{
+    background-color: rgb(0, 83, 157);
+}
+.button1 button{
+	font-size: 30px;
+	font-weight: bold;	
+    background-color: rgb(0, 116, 217);
+    margin: 16px 8px 4px 4px;
+    width: 240px;
+    height: 60px;
+    padding: 1px 2px;
+    cursor: pointer;
+    display: block;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.button1 button:not{
+    border-bottom: none;
+}
+.button1 button:hover{
+    background-color: rgb(0, 83, 157);
+}
+.button1 {
+    float: right;
+    padding-right:10px ;
+  }
+.navbar {
+    overflow: hidden;
+    background-color: #31363f;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 99;
+ }
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.navbar a:hover {
+    background-color: #575b62;
+    color: white;
+}
+.navbar a.active1 {
+    background-color: rgb(43, 154, 255);
+    color: black;
+}
+.navbar input{
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+    border: none;
+    font-size: 17px;
+    font-family: 'Nunito Sans', sans-serif;
+    border-radius: 5px;
+    width: 300px;
+    height: 30px;
+    background-color: white;
+    color: black;
+}
+* {
+	box-sizing: border-box;
+}
+body {
+	font-family: Verdana,sans-serif;
+	margin: 0;
+	background-color: rgb(193, 255, 255);
+}
+.mySlides {
+	display: none
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+#slideshow1{
+  align-items: center;
+}
+#slideshow2{
+  width:600px;
+  height: 200px;
+}
+.jpg{
+  width:600px;
+  height: 200px;
+}
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  width: auto;
+  padding: 16px;
+  margin-top: -10px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 15px;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 15px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+#pbutton{
+    background-color: rgb(0, 116, 217);
+    margin: 4px;
+    width: 300px;
+    font-size: 32px;
+    font-weight: bolder;
+    padding: 5px;
+    cursor: pointer;
+    display: block;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    grid: 100;
+}
+#pbutton:hover{
+    background-color: rgb(0, 69, 132);
+    color: white;
+}
+.pbutton_container{
+  height: 200px;
+  position: relative;
+}
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.partner h1{
+  color: black;
+  font-family: 'Sriracha', cursive;
+  font-size: 80px;
+  text-align: center;
+}
+hr{
+  border: 5px solid rgb(0, 116, 217);
+  width: 100%;
+}
+.rate{
+  background-image: url("../images/termsbg.png");
+}
+#next3, #prev3{
+  color: white;
+}
+.para1{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  z-index: 55;
+}
+.para2, .para3, .para4{
+  flex: 50%;
+  padding-right: 80px;
+  padding-left: 100px;
+  font-size: 20px;
+  color: rgb(126, 120, 120);
+}
+.footer2{
+  padding-top: 100px;
+}
+.para1 .para3{
+  border-left: #31363f;
+  border-right: #31363f;
+  border-width: 5px;
+  border-style: solid;
+  border-top: white;
+  border-bottom: white;
+}
+.para1 .para2 h2, .para1 .para3 h2, .para1 .para4 h2{
+  font-size: 30px;
+  font-family: 'Poppins', sans-serif;
+  color: black;
+}
+footer{
+    width:100%;
+    bottom: 0 ;
+    background: rgb(164, 211, 255);
+    color: azure;
+    padding: 20px 0 20px;
+    font-size: 13px;
+    line-height:30px;
+    display: block;
+    position: relative;
+}
+
+.row{
+    width:90%;
+    margin:auto;
+    display:flex; 
+    flex-wrap:wrap;
+    align-items:flex-start;
+    justify-content: space-between;
+}
+ 
+.col{
+   flex-basis: 25%;
+   padding:5px;
+  
+}
+
+.para h3{
+    font-size: 14px;
+}
+.para{
+    font-size: 14px;
+    float: left;
+}
+
+.link {
+    padding-left: 90px;
+    padding-top: 30px;
+    font-size: 23px;
+    color: white
+}
+.col h3{
+    padding-right: 50px;
+    font-size: 15px;
+}
+
+.social-icons .fa{
+    width:60px;
+    height:90px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 35px;
+    color: #fff;
+    margin-right: 10px;
+}
+.social-icons h2{
+    font-size: 25px;
+}
+.col h2{
+    font-size:20px;
+    line-height: 3;
+    
+}
+
+.col .logo2 {
+	width: 280px;
+	height: 280px;
+}

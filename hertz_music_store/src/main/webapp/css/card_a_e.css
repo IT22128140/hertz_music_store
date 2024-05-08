@@ -1,0 +1,60 @@
+@charset "ISO-8859-1";
+
+* {
+	box-sizing: border-box;
+}
+  /* Change the background color */
+body {
+	background-color: skyblue;
+}
+/* Use a white background color for the form */
+.fill {
+	background-color: white;
+	margin: 20px;
+	padding: 20px;
+	border-radius: 10px;
+}
+/* Use a flexbox layout to align the inputs horizontally */
+.form-row {
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+}
+label, input {
+	width: 50%;
+}
+/* Style the inputs */
+input {
+	padding: 10px;
+	border: none;
+	border-bottom: 2px solid skyblue;
+	outline: none;
+	width: 70px
+}
+#card_name,#card_number{
+	width: 300px	
+}
+/* Style the submit button */
+input[type=submit] {
+	width: auto;
+	background-color: skyblue;
+	color: white;
+	border-radius: 5px;
+	cursor: pointer;
+}
+/*style the h1 heading*/
+h1{
+	text-align: center;
+}
+/*style the delete button*/
+#delete{
+	font-size: 15px;
+	margin-top:20px ;
+	margin-left: 45%;
+	background-color: rgb(198, 13, 17);
+	color: white;
+	padding: 20px 30px;
+	border: none;
+	border-radius: 5px;
+	font-weight: bold;
+}

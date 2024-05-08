@@ -1,0 +1,84 @@
+
+/* Set the background to white for the entire page */
+body {
+	background-color: skyblue;
+}
+
+
+/* Style the table */
+table {
+	background-color: white;
+	border: 2px solid dodgerblue;
+	border-collapse: collapse;
+	width: 95%;
+	margin-top: 20px;
+}
+
+/* Style the table headers */
+th {
+	background-color: dodgerblue;
+	color: white;
+	font-weight: bold;
+	padding: 10px;
+}
+/* Style the table rows */
+tr {
+	text-align: center;
+}
+/* Style the table cells */
+td {
+	padding: 10px;
+}
+/* Style the edit card button */
+#edit{
+  background-color: dodgerblue;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+/*style the delete button*/
+#delete {
+	background-color: rgb(198, 13, 17);
+	color: white;
+	padding: 5px 10px;
+	border: none;
+	border-radius: 5px;
+	font-weight: bold;
+}
+
+/* Style the horizontal line */
+hr {
+	background-color: dodgerblue;
+	height: 5px;
+	border: none;
+	margin: 20px 0;
+}
+
+/* Add spacing between the table and the "Add Card" button */
+table + a {
+	margin-top: 20px;
+}
+/* Remove underlines from links */
+a {
+	text-decoration: none;
+	color: inherit;
+}
+/*style the add card button*/
+#add {
+	font-size: 15px;
+	margin-top:20px ;
+	margin-left: 45%;
+	background-color: rgb(255, 255, 255);
+	color: rgb(255, 0, 0);
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	border: 2px solid;
+	font-weight: bold;
+	border-color: rgb(255, 0, 0);
+}
+h1{
+	text-align: center;
+}

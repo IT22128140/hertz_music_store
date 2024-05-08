@@ -1,0 +1,35 @@
+@charset "ISO-8859-1";
+/*change the body style*/
+body {
+	background-color: #87CEEB;
+    color: black;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/*aligned the cards*/
+.container{
+	
+	display: flex;
+    justify-content: space-evenly;
+}
+/*change the card styles*/
+.fill {
+	display: flex;
+    background-color: white;
+    border: 1px solid #87CEEB;
+    padding: 20px;
+    margin: 10px;
+}
+/*change submit button style*/
+input[type="submit"] {
+	background-color: #87CEEB; /* Sky Blue button background */
+    color: white; /* White text color */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+/*change the header style*/
+h1 {
+	text-align: center;
+}

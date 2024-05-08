@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+         
+	<servlet>
+		<servlet-name>AddNewCard</servlet-name>
+		<servlet-class>com.card.Card_add_serverlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AddNewCard</servlet-name>
+		<url-pattern>/addnew</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+        <servlet-name>AddedCards</servlet-name>
+		<servlet-class>com.card.Card_Servlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AddedCards</servlet-name>
+		<url-pattern>/addedCards</url-pattern>
+	</servlet-mapping>
+	
+		<servlet>
+        <servlet-name>EditCard</servlet-name>
+		<servlet-class>com.card.Card_Edit_Servlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>EditCard</servlet-name>
+		<url-pattern>/update</url-pattern>
+	</servlet-mapping>
+	
+		<servlet>
+        <servlet-name>DeleteCard</servlet-name>
+		<servlet-class>com.card.Card_Delete_Servlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DeleteCard</servlet-name>
+		<url-pattern>/delete</url-pattern>
+	</servlet-mapping>
+	
+			<servlet>
+        <servlet-name>paid</servlet-name>
+		<servlet-class>com.cart.Paid_Servlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>paid</servlet-name>
+		<url-pattern>/paid</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	        <servlet-name>payment</servlet-name>
+		<servlet-class>com.cart.Pay_Servlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>payment</servlet-name>
+		<url-pattern>/payment</url-pattern>
+	</servlet-mapping>
+	
+	
+</web-app>
